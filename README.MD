@@ -1,1 +1,1 @@
-<h1 align="center">Get Started Python and Django</h1>
+<h1 align="center">Get Started - Python and Django</h1>
