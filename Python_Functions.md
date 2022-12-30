@@ -181,6 +181,26 @@ showStudent = display_student
 # call using new name
 showStudent("Emma", 26)
 ```
+#### Expected Output:
+```
+Emma 26
+Emma 26
+```
+#
+### 08. Exercise - Generate a Python list of all the even numbers between 4 to 30
+```
+print(list(range(4, 30, 2)))
+```
+#### Expected Output:
+```[4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28]```
+#
+### 09. Find the largest item from a given list
+```
+x = [4, 6, 8, 24, 12, 2]
+print(max(x))
+```
+#### Expected Output:
+```24```
 
 
 
