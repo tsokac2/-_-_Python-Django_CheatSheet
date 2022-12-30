@@ -2,7 +2,6 @@
 
 Python function is a code block or group of statements that perform a particular task. We use reuse functions whenever required.
 
-
 This Python functions exercise aims to help Python developers to learn and practice how to define functions. Also, you will practice how to create and use the nested functions and the function arguments effectively.
 
 #
