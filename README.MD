@@ -5,7 +5,7 @@
 * In the command line check the Python version:
 ```python --version```
 
-* If Python is not installed, download the installation file from [HERE](https://www.python.org/downloads/)
+* If Python is not installed, download the installation file from **[HERE](https://www.python.org/downloads/)**
 
 * In Visual Studio Code create a Python file with ```*.py``` extension
 
@@ -19,6 +19,7 @@
 ```"code-runner.runInTerminal": true,```
 
 * Run the Python files in the command line by typing the following:
+
     ```py PATH/file.py```
 
     or
@@ -29,4 +30,3 @@
     
     Press the **"Play >"** button in the _top-right corner._
 
-    
