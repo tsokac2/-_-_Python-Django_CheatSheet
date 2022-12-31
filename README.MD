@@ -7,6 +7,8 @@
 
 * If Python is not installed, download the installation file from **[HERE](https://www.python.org/downloads/)**
 
+* Update Python Version **[Upgrade Python](https://monovm.com/blog/how-to-update-python-version/)**
+
 * In Visual Studio Code create a Python file with ```*.py``` extension
 
 * In Visual Studio Code install the extension by pressing **Ctrl+Shift+X** and installing the 2 extensions
