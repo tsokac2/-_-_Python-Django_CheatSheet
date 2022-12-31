@@ -24,9 +24,9 @@
 
     or
     
-    ``` python  PATH/file.py```
+    ``` python PATH/file.py```
     
     or
     
-    Press the **"Play >"** button in the _top-right corner._
+    Press the **"Play"** button in the _top-right corner._
 
