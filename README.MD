@@ -7,6 +7,9 @@
 
 * If Python is not installed, download the installation file from **[HERE](https://www.python.org/downloads/)**
 
+* Install ```pip``` in versions of Python
+```python -m pip install```
+
 * Update Python Version **[Upgrade Python](https://monovm.com/blog/how-to-update-python-version/)**
 
 * In Visual Studio Code create a Python file with ```*.py``` extension
