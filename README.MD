@@ -1,6 +1,6 @@
 <h1 align="center">Get Started - Python and Django</h1>
 
-### Set up Python on Visual Studio Code
+## Set up Python on Visual Studio Code
 
 * In the command line check the Python version:
 ```python --version```
@@ -13,7 +13,7 @@
 * Under **User variables for <user>** - **New** - Create a name for pip3 variable - copy/paste ```pip3.exe``` file location in the **Variable value** field.
 * Under **System variables** - Select **Path** - **Edit** - copy/past file location - ex. ```C:\Program Files\Python311\Scripts```
 * In the comand line test with ```pip3``` comand.
-* Result: 
+* Result for a successful configuration
 ```
 Commands:
   install                     Install packages.
@@ -25,15 +25,7 @@ Commands:
 
 Show help for commands.
 ...
-
-General Options:
-  -h, --help                  Show help.
-  --debug                     Let unhandled exceptions propagate outside the main subroutine, instead of logging them
-                              to stderr.
-...
 ```
-
-
 * Update Python Version **[Upgrade Python](https://monovm.com/blog/how-to-update-python-version/)**
 
 * In Visual Studio Code create a Python file with ```*.py``` extension
@@ -59,3 +51,6 @@ General Options:
     
     Press the **"Play"** button in the _top-right corner._
 
+## Start Django Project
+
+### _NOTE_: Make sure the late Python version is installed and pip3 is configured in Environment Variables
