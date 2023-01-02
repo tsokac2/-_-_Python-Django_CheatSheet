@@ -54,3 +54,50 @@ Show help for commands.
 ## Start Django Project
 
 ### _NOTE_: Make sure the [latest Python](https://www.python.org/downloads/) version is installed and pip3 is configured in Environment Variables
+
+* Create project folder: 
+
+    ```mkdir <Project Folder>```
+
+* Navigate in the project folder and create a Django project:
+
+    ```pipenv install django```
+
+```
+Successfully created virtual environment!
+Virtualenv location: C:\Users\Tomislav\.virtualenvs\django-LQQolwqZ
+Creating a Pipfile for this project...
+Installing django...
+Pipfile.lock not found, creating...
+Locking [packages] dependencies...
+Locking [dev-packages] dependencies...
+Updated Pipfile.lock (af42abefb766e975f7680f10368735353569fb4fe0114e59496a7202658362fc)!
+Installing dependencies from Pipfile.lock (8362fc)...
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+```
+* Use the following to open VS Code from the terminal ``` code . ```
+* Activate Virtual Environment with 
+
+    ``` pipenv shell```
+
+* Create Django App with 
+    
+    ``` django-admin startproject myApp .```
+* Run Django server with 
+    
+    ```python manage.py runserver```
+
+```
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.        
+January 02, 2023 - 10:26:13
+Django version 4.1.5, using settings 'myApp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+```
