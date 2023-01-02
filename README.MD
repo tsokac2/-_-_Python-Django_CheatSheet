@@ -53,4 +53,4 @@ Show help for commands.
 
 ## Start Django Project
 
-### _NOTE_: Make sure the late Python version is installed and pip3 is configured in Environment Variables
+### _NOTE_: Make sure the [latest Python](https://www.python.org/downloads/) version is installed and pip3 is configured in Environment Variables
