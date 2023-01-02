@@ -102,4 +102,6 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
-### More info [HERE](https://www.youtube.com/watch?v=rHux0gMZ3Eg)
+### Django Documentation - [LINK](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
+
+### More info here -  [VIDEO](https://www.youtube.com/watch?v=rHux0gMZ3Eg)
