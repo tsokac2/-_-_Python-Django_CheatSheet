@@ -1,2 +1,2 @@
 print("Hello World")
-print(50)
+print("This will be printed in to the console")
