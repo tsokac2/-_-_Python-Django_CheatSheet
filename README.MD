@@ -7,8 +7,32 @@
 
 * If Python is not installed, download the installation file from **[HERE](https://www.python.org/downloads/)**
 
-* Install ```pip``` in versions of Python
-```python -m pip install```
+#### Configure  PATH **Environment Variables** in Win 10 for ```pip3``` python installer program
+
+* Open Environment Variables - **Start** - type **"Path"** - click on **Edit the System Environment Variables**
+* Under **User variables for <user>** - **New** - Create a name for pip3 variable - copy/paste ```pip3.exe``` file location in the **Variable value** field.
+* Under **System variables** - Select **Path** - **Edit** - copy/past file location - ex. ```C:\Program Files\Python311\Scripts```
+* In the comand line test with ```pip3``` comand.
+* Result: 
+```
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  inspect                     Inspect the python environment.
+  list                        List installed packages.
+
+Show help for commands.
+...
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled exceptions propagate outside the main subroutine, instead of logging them
+                              to stderr.
+...
+```
+
 
 * Update Python Version **[Upgrade Python](https://monovm.com/blog/how-to-update-python-version/)**
 
