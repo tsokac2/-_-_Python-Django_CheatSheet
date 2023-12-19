@@ -1,5 +1,76 @@
 <h1 align="center">Common Python Interview Questions</h1>
 
+## Basic Python Knowledge
+
+### Differences between Python 2 and Python 3:
+Python 2 reached its end of life, and Python 3 is the current version with improved syntax and features. Some differences include print statements, Unicode support, and integer division.
+
+
+### Generators in Python:
+Generators are functions that ``yield`` a sequence of values, allowing iteration. They differ from lists as they generate values on-the-fly, saving memory. 
+
+``yield`` is used to produce values during iteration.
+
+## API Concepts:
+
+### API Importance:
+APIs (Application Programming Interfaces) enable communication between different software components. They define how software components should interact.
+
+### REST vs. SOAP APIs:
+REST (Representational State Transfer) is lightweight and uses standard HTTP methods, while SOAP (Simple Object Access Protocol) is a protocol with XML-based messaging. 
+
+REST is preferred for its simplicity.
+
+### OAuth:
+- OAuth is an authentication protocol that allows secure authorization to access resources. 
+- It's widely used in API integrations for user authentication without sharing credentials.
+
+## Python for API Integration
+
+### Making HTTP Requests:
+Python provides libraries like ``requests`` for making HTTP requests. 
+For instance, ``requests.get('https://api.example.com/data')``.
+
+### requests Library:
+The ``requests`` library simplifies HTTP requests. Methods like ``get``, ``post``, and ``json()`` facilitate data retrieval and processing.
+
+``json Module``:
+The json module in Python handles JSON encoding and decoding. ``json.loads()`` is used to parse JSON data.
+
+## Error Handling:
+
+### Handling Exceptions in Python:
+Exceptions in Python are handled using try, except, and optionally finally blocks. 
+
+#### Example:
+```
+try:
+    # Code that may raise an exception
+except SomeException as e:
+    # Handle the exception
+```
+
+### Handling Errors in API Integrations:
+Robust error handling in API integrations involves checking ``HTTP`` status codes, handling timeouts, and logging errors for analysis.
+
+
+## Data Formats:
+
+### JSON vs. XML:
+``JSON (JavaScript Object Notation)`` is lightweight and easier to read, while ``XML (eXtensible Markup Language)`` is more verbose. JSON is commonly preferred for its simplicity.
+
+### Parsing JSON in Python:
+The json module is used to parse JSON data. 
+
+#### Example:
+```
+import json
+data = '{"name": "John", "age": 30}'
+parsed_data = json.loads(data)
+```
+
+#
+
 ### What is Python?
 Python is a high-level, general-purpose programming language that is known for its readability and ease of use. 
 It is often used for web development, data science, machine learning, and scripting.
@@ -8,7 +79,6 @@ It is often used for web development, data science, machine learning, and script
 - Python is a dynamically typed language, which means that variable types are not explicitly declared. 
 - Python is also garbage-collected, which means that the programmer does not need to manage memory allocation and deallocation.
 - Python is further characterized by its ``object-oriented programming (OOP)`` paradigm, its extensive standard library, and its large community of active developers.
-
 
 ### What are the applications of Python?
 Python is a versatile language with a wide range of applications. It is commonly used for:
@@ -48,7 +118,7 @@ A dynamically typed language is a programming language in which variable types a
 - ``tuples`` are immutable (cannot be changed). 
 
 ### How do you debug Python code?
-There are a number of tools and techniques for debugging Python code. These include using the print() statement, using a debugger, and using linting tools.
+There are a number of tools and techniques for debugging Python code. These include using the ``print()`` statement, using a ``debugger``, and using ``linting tools``.
 
 ### What are the different ways to package and distribute Python code?
 There are a number of different ways to package and distribute Python code. These include using the ``setuptools`` package, using the ``wheel`` package, 
