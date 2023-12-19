@@ -51,7 +51,8 @@ A dynamically typed language is a programming language in which variable types a
 There are a number of tools and techniques for debugging Python code. These include using the print() statement, using a debugger, and using linting tools.
 
 ### What are the different ways to package and distribute Python code?
-There are a number of different ways to package and distribute Python code. These include using the setuptools package, using the wheel package, and using a containerization platform such as Docker.
+There are a number of different ways to package and distribute Python code. These include using the ``setuptools`` package, using the ``wheel`` package, 
+and using a containerization platform such as ``Docker``.
 
 #### Example:
 ```
